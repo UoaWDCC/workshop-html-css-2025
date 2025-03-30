@@ -1,3 +1,6 @@
+* { 
+    border: 1px solid black; 
+}
 /* This is the CSS code for the style of the page: */
 
 /* The h1 selector means that style here will relate to 'h1'/heading elements */
@@ -10,7 +13,8 @@ h2 {
     /* This color property changes the text color to blue */
     color: blue;
     /* This background-color property changes the background color to chartreuse */
-    background-color: chartreuse;
+    background-color: rgb(214, 49, 167);
+    padding: 60px;
 }
 
 .header {

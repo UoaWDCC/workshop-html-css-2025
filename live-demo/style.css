@@ -1,0 +1,73 @@
+/* Your CSS code here: */
+/* * {
+    border: 1px solid black;
+} */
+
+.left {
+    width: 30%;
+}
+
+.right {
+    width: 70%;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.contact-card {
+    display: flex;
+    align-items: center;
+    height: 120px;
+    padding-left: 40px;
+    transition: 1s;
+}
+
+.contact-card:hover {
+    background-color: rgba(194, 43, 248, 0.05);
+}
+
+.contact-card p {
+    padding-left: 25px;
+}
+
+.contact-card img {
+    width: 60px;
+}
+
+.contact-cards {
+    max-height: 510px;
+    overflow: auto;
+}
+
+.main {
+    box-shadow: 1px 2px 7px 6px rgba(0, 0, 0, 0.09);
+    border-radius: 10px;
+    display: flex;
+    max-width: 900px;
+    margin: auto;
+    margin-top: 10vh;
+}
+
+.right img, .contact-cards img {
+    border-radius: 50%;
+}
+
+
+.edit-button {
+    color: white;
+    background-color: rgba(164, 43, 248, 1);
+    border-radius: 4px;
+    border: none;
+    padding: 8px 22px;
+}
+
+.delete-button {
+    color: red;
+    background-color: white;
+    border: 1px solid red;
+    border-radius: 4px;
+    padding: 8px 22px;
+}
+
